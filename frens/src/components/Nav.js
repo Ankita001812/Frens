@@ -29,20 +29,20 @@ const Nav = () => {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="navbar-nav mb-2 mb-lg-0 align-items-center">
             <li className="nav-item">
               <Link to="/" className="nav-link">
-                <HomeRoundedIcon className="icon" />
+                <HomeRoundedIcon className="icon" style={{ fontSize: "28px" }} />
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/grid" className="nav-link">
-                <GridViewRoundedIcon className="icon" />
+                <GridViewRoundedIcon className="icon" style={{ fontSize: "28px" }} />
               </Link>
             </li>
             <li className="nav-item">
-              <div className="d-flex ">
-                <div className="input-group w-auto">
+              <div className="d-flex justify-content-center">
+                <div className="input-group " style={{marginLeft: "20px"}}>
                   <input
                     className="form-control bg-dark text-light"
                     type="search"
@@ -52,7 +52,7 @@ const Nav = () => {
                   <span className="input-group-text bg-dark border-0">
                     <SearchRoundedIcon
                       className="search-icon"
-                      style={{ color: "white", fontSize: "24px" }}
+                      style={{ color: "white", fontSize: "28px" }}
                     />
                   </span>
                 </div>
@@ -60,9 +60,11 @@ const Nav = () => {
             </li>
           </ul>
 
-          <div className="d-flex ms-auto ">
-            <PersonOutlineOutlinedIcon style={{ color: "yellow" }} />
+          <div className="d-flex ms-auto align-items-center">
+            <PersonOutlineOutlinedIcon style={{ color: "yellow", fontSize: "28px" }} />
+            <span style={{ color: "white", fontSize: "18px" }}>user name</span>
           </div>
+
         </div>
       </div>
     </nav>
