@@ -1,0 +1,36 @@
+
+.nav-icon {
+  font-size: 1.75rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-icon:hover {
+  color: #627f9e; 
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  color: #6c757d; 
+}
+
+.search-form input {
+  padding-left: 2.5rem;
+  border-radius: 50px;
+  border: 1px solid #ced4da;
+}
+
+.search-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
