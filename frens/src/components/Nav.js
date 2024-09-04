@@ -79,7 +79,7 @@ const Nav = () => {
 
           <div className="d-flex ms-auto align-items-center">
             <PersonOutlineOutlinedIcon style={{ color: "yellow", fontSize: "40px" }} />
-            <span style={{ color: "white", fontSize: "18px" }}>user name</span>
+            <span style={{ color: "white", fontSize: "22px" }}>user name</span>
           </div>
 
         </div>
